@@ -1,0 +1,44 @@
+<!-- Lucas Wood -->
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+  <title>Order Form</title>
+  <meta charset="utf-8">
+  <style type="text/css">
+    table {
+      border: medium solid black;
+    }
+    .submit{
+      text-align: center;
+    }
+
+  </style>
+</head>
+
+<body>
+
+<form action="http://lwood250.azurewebsites.net/placeOrder.php" method="get">
+    <table>
+        <tr>
+            <td>Name: </td>
+            <td><input type="text" name="name" /></td>
+        </tr>
+        <tr>
+            <td>Book Title: </td>
+            <td><input type="text" name="title" /></td>
+        </tr>
+        <tr>
+            <td>Cost: </td>
+            <td><input type="text" name="cost" /></td>
+        </tr>
+        <tr>
+            <td class="submit" colspan="2"><input type="submit" value="Place Order" /></td>
+        </tr>
+    </table>
+</form>
+
+</body>
+
+</html>
